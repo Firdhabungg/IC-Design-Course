@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ICDesignCourse</string>
+    <string name="mulailah">Mulailah Perjalanan Kamu bersama IC Design Course</string>
+    <string name="text_belajar_desain">Belajar Desain dengan Lebih Mudah dan Menyenangkan bersama KIW Design</string>
+    <string name="belajar_design_desctiption">belajar design desctiption</string>
+    <string name="judul_ic_design">Judul Ic Design</string>
+    <string name="icdesign">ICDesign</string>
+    <string name="daftar">Daftar</string>
+    <string name="masuk">Masuk</string>
+    <string name="logo_ic_design">logo_ic_design</string>
+</resources>
