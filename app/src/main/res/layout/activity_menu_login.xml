@@ -19,7 +19,6 @@
         android:layout_marginTop="40dp"
         android:contentDescription="Ilustrasi" />
 
-    <!-- Label Email -->
     <TextView
         android:id="@+id/Email"
         android:layout_width="wrap_content"

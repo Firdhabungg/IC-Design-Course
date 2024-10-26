@@ -16,10 +16,10 @@
             android:name=".activity_menu_register"
             android:exported="false" />
         <activity
-            android:name=".MenuLogin"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MenuLogin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
