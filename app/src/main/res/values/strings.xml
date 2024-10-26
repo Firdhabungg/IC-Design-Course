@@ -8,4 +8,6 @@
     <string name="daftar">Daftar</string>
     <string name="masuk">Masuk</string>
     <string name="logo_ic_design">logo_ic_design</string>
+    <string name="ombak_bottom">Ombak Bottom</string>
+    <string name="ombak_top">Ombak Top</string>
 </resources>
