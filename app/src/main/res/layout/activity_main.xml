@@ -17,18 +17,18 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewJudul"
-        app:srcCompat="@drawable/logo_kiw_design"
+        app:srcCompat="@drawable/logo"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
         android:fontFamily="@font/poppins_semibold"
         android:text="@string/mulailah"
-        android:textAlignment="viewStart"
+        android:textAlignment="center"
         android:textSize="16sp"
         android:textStyle="bold"
         android:layout_marginTop="50dp"
@@ -45,7 +45,7 @@
         android:contentDescription="@string/belajar_design_desctiption"
         android:fontFamily="@font/poppins"
         android:text="@string/text_belajar_desain"
-        android:textAlignment="viewStart"
+        android:textAlignment="center"
         android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,15 +56,15 @@
         android:id="@+id/textViewJudul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
         android:contentDescription="@string/judul_ic_design"
         android:fontFamily="@font/poppins_bold"
         android:text="@string/icdesign"
         android:textSize="34sp"
         android:textStyle="bold"
+        android:typeface="normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageViewWave" />
 
     <Button
         android:id="@+id/btnDaftar"
@@ -96,5 +96,29 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnDaftar" />
+
+    <ImageView
+        android:id="@+id/imageViewWave"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:contentDescription="@string/ombak_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/banner1" />
+
+    <ImageView
+        android:id="@+id/imageViewWave2"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:contentDescription="@string/ombak_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="1."
+        app:srcCompat="@drawable/banner2"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
